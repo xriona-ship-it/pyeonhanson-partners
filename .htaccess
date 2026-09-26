@@ -1,0 +1,7 @@
+# config.php 는 브라우저에서 직접 열 수 없게 막기
+<Files "config.php">
+  Order allow,deny
+  Deny from all
+</Files>
+DirectoryIndex index.html
+AddDefaultCharset UTF-8
